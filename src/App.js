@@ -17,7 +17,7 @@ const App = () => {
   const openMovieDetails = (movie) => {
     setSelectedMovie(movie);
     setMovies((prevMovies) =>
-      prevMovies.map((m) => (m.id === movie.id ? { ...m, status: 'visto' } : m))
+      prevMovies.map((m) => (m.id === movie.id ? { ...m, status: 'Visto' } : m))
     );
   };
 

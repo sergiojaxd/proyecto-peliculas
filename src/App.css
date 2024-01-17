@@ -131,3 +131,9 @@ option {
 .filter-container {
   margin-left: 30px;
 }
+
+.movie-generes {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #777;
+}

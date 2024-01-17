@@ -1,0 +1,19 @@
+const moviesDate = [
+    {id:1,title: 'Inception', description: 'Un ladrón especializado en el robo de secretos corporativos utiliza la tecnología de compartir sueños para implantar una idea en la mente de un CEO.', year: 2010, status: 'no visto', categories: ['Ciencia ficción', 'Acción', 'Suspenso']},
+    {id:2,title: 'The Shawshank Redemption', description: 'La historia de un hombre encarcelado que mantiene la esperanza a lo largo de los años mientras busca su libertad.', year: 1994, status: 'no visto', categories: ['Drama', 'Crimen']},
+    {id:3,title: 'The Dark Knight', description: 'Batman se enfrenta a su némesis, el Joker, en una batalla por la moralidad en Gotham City.', year: 2008, status: 'no visto', categories: ['Acción', 'Drama', 'Crimen']},
+    {id:4,title: 'Pulp Fiction', description: 'Las vidas de varios personajes se entrelazan en el mundo del crimen organizado en Los Ángeles.', year: 1994, status: 'no visto', categories: ['Drama', 'Crimen']},
+    {id:5,title: 'Forrest Gump', description: 'La vida de Forrest Gump, un hombre con una baja capacidad intelectual, pero con una increíble suerte.', year: 1994, status: 'no visto', categories: ['Comedia', 'Drama', 'Romance']},
+    {id:6,title: 'The Matrix', description: 'Un hacker descubre la verdad sobre su realidad y se une a otros para luchar contra las máquinas que controlan el mundo.', year: 1999, status: 'no visto', categories: ['Ciencia ficción', 'Acción']},
+    {id:7,title: 'The Godfather', description: 'La historia de una poderosa familia de la mafia italiana y la transición de poder entre generaciones.', year: 1972, status: 'no visto', categories: ['Drama', 'Crimen']},
+    {id:8,title: 'Schindlers List', description: 'La historia real de Oskar Schindler, un hombre de negocios que salva la vida de más de mil judíos durante el Holocausto.', year: 1993, status: 'no visto', categories: ['Drama', 'Historia']},
+    {id:9,title: 'Fight Club', description: 'Un hombre desilusionado forma un club secreto donde los hombres pueden liberar sus frustraciones a través de peleas físicas.', year: 1999, status: 'no visto', categories: ['Acción', 'Drama']},
+    {id:10,title: 'The Silence of the Lambs', description: 'Una agente del FBI busca la ayuda de un inteligente pero peligroso psicópata para atrapar a otro asesino en serie.', year: 1991, status: 'no visto', categories: ['Suspenso', 'Drama', 'Crimen']},
+    {id:11,title: 'Titanic', description: 'La historia de amor entre dos pasajeros a bordo del famoso barco que se hunde durante su viaje inaugural.', year: 1997, status: 'no visto', categories: ['Romance', 'Drama']},
+    {id:12,title: 'The Lord of the Rings: The Fellowship of the Ring', description: 'Un grupo de personajes se embarca en una misión para destruir un anillo que podría sumir al mundo en la oscuridad.', year: 2001, status: 'no visto', categories: ['Fantasia', 'Aventura']},
+    {id:13,title: 'Inglourious Basterds', description: 'Durante la Segunda Guerra Mundial, un grupo de soldados judíos y una actriz francesa buscan venganza contra los nazis.', year: 2009, status: 'no visto', categories: ['Belica', 'Drama', 'Comedia']},
+    {id:14,title: 'The Great Gatsby', description: 'La historia del misterioso Jay Gatsby y su obsesión por recuperar un amor del pasado.', year: 2013, status: 'no visto', categories: ['Romance', 'Drama']},
+    {id:15,title: 'Interstellar', description: 'Un grupo de astronautas busca un nuevo hogar para la humanidad en un agujero de gusano cerca de Saturno.', year: 2014, status: 'no visto', categories: ['Ciencia ficción', 'Drama', 'Aventura']}
+]
+
+export default moviesDate;

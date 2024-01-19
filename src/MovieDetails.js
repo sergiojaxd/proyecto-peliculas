@@ -1,4 +1,4 @@
-const MovieDetailsModal = ({ movie, onClose, showCategories}) => {
+const MovieDetailsModal = ({ movie, onClose, showCategories, onFavorite}) => {
     return (
         <div className="modal-overlay">
             <div className="modal-content">
@@ -7,6 +7,7 @@ const MovieDetailsModal = ({ movie, onClose, showCategories}) => {
             <p className="movie-year">Año de lanzamiento: {movie.year}</p>
             {showCategories && <p className="movie-categories">Categorias: ...</p>}
             <button className="close-button" onClick={onClose}>Cerrar</button>
+            <button className="favorite-buttom" onClick={onFavorite}>Favorite</button>
             </div>
         </div>
     );

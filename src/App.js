@@ -13,6 +13,13 @@ const App = () => {
   const [selectedCategory, setSelectedCategory] = useState('');
   const [sortType, setSortType] = useState('title');
   const [sortOrder, setSortOrder] = useState('asc');
+  
+  const Favorite = (id) => {
+    setMovies((prevMovies) =>
+    prevMovies.map((movies) =>
+    movies.id === id ? { ...movies, Favorite: !movies.Favorite} : movies)
+    );
+  };
 
   const openMovieDetails = (movie) => {
     setSelectedMovie(movie);
@@ -83,8 +90,12 @@ const App = () => {
         <MovieDetailsModal
           movie={selectedMovie}
           onClose={closeMovieDetails}
+          onFavorite={() => Favorite(selectedMovie.id)}
         />
       )}
+
+      <h3>Lista favoritos</h3>
+      <MovieList movies={movies.filter(m => m.Favorite)} onMovieClick={openMovieDetails} />
     </div>
   );
 };
